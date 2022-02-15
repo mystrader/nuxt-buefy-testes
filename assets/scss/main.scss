@@ -22,6 +22,9 @@
 @import 'misc';
 @import 'dark-mode';
 
+/* @overwrite Theme styles Dhuo */
+@import 'dhuo/color_palete';
+
 /* Animate.css custom build (just selected animations to minimize bundle size) */
 @import '../css/animate.min.css';
 

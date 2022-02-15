@@ -5,7 +5,7 @@
         <template #brand>
           <b-navbar-item tag="router-link" :to="{ path: '/' }">
             <img
-              src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
+              src="https://github.com/mystrader/nuxt-buefy-testes/blob/main/assets/dhuo_logo.png?raw=true"
               alt="Lightweight UI components for Vue.js based on Bulma"
             />
           </b-navbar-item>

@@ -1,9 +1,6 @@
 // @TODO adaptar
 // =============
 
-// //Font Family
-// $font-family-default: hero-new, Roboto, sans-serif;
-
 //Brand Colors
 $color-neutral-black: #000000;
 $color-neutral-white: #ffffff;
@@ -39,16 +36,34 @@ $color-link-300: #3978b9;
 $color-informative-200: #1678d1;
 $color-informative-100: #1b92ff;
 
-$colors: (
-  light: (
-    base: #f7f7f7,
-    darkest: #f0f0f0,
-  ),
-  dark: (
-    base: #7e7a7a,
-    darkest: #292929,
-  ),
-) !default;
+// $colors: (
+//   light: (
+//     base: #f7f7f7,
+//     darkest: #f0f0f0,
+//   ),
+//   dark: (
+//     base: #7e7a7a,
+//     darkest: #292929,
+//   ),
+// ) !default;
+
+// EXPLICAÇÃO SOBRE ESTE MÉTODO
+// \Bootcamp Cataline\8. Escalando Vue com Nuxt\521. Iniciando iBook\3611. Bóson de paleta de cores
+
+// Resumo da explicação :
+
+// // no scss ...
+// $colors : (
+//   primary: (
+//     base: #5d2786,
+//     light: #7933ac,
+//     dark: #8e3ccb,
+//   ),
+//   )
+
+//   // aplicaçao
+// background-color: color('sucess', 'light')
+// background-color: rgba(color('sucess', 'light'), 0.5)
 
 @function color($color, $complementary: null) {
   @if map-has-key($colors, $color) {

@@ -1,7 +1,6 @@
 <template>
   <section class="mt-6">
     <h1 class="title">Dhuo Steps</h1>
-
     <h2 class="subtitle">Exemplo de dhuo com darkTheme aplicado</h2>
 
     <b-tabs v-model="activeTab">
